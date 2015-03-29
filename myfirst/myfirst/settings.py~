@@ -20,7 +20,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(__file__))
 SECRET_KEY = 'ex)ad%f@7fa56p2i#rkambizfmpgz8kztneltc$h-ykq-1b9+1'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG =True
+DEBUG = True
 
 TEMPLATE_DEBUG = True
 
@@ -52,7 +52,7 @@ ROOT_URLCONF = 'myfirst.urls'
 
 WSGI_APPLICATION = 'myfirst.wsgi.application'
 
-#bla
+
 # Database
 # https://docs.djangoproject.com/en/1.7/ref/settings/#databases
 
@@ -66,7 +66,7 @@ DATABASES = {
 # Internationalization
 # https://docs.djangoproject.com/en/1.7/topics/i18n/
 
-LANGUAGE_CODE = 'Asia/Kolkata'
+LANGUAGE_CODE = 'en-us'
 
 TIME_ZONE = 'Asia/Kolkata'
 
